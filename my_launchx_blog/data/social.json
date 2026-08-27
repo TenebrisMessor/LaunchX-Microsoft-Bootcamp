@@ -1,0 +1,14 @@
+{
+  "links": [
+    {
+      "name": "twitter",
+      "url": "https://twitter.com/ArielHR477",
+      "image": "images/social/twitter.svg"
+    },
+    {
+      "name": "github",
+      "url": "https://github.com/TenebrisMessor",
+      "image": "images/social/github.svg"
+    }
+  ]
+}

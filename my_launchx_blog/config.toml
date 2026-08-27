@@ -1,0 +1,21 @@
+baseURL = "https://tenebrismessor.github.io/my_launchx_blog/"
+languageCode = "en-us"
+title = "Bitácora de Viaje"
+theme = "hugo-winston-theme"
+relativeURLs = true
+canonifyURLs = true
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+paginate = 3
+
+[params]
+  google_analytics_id = ""
+  # Hey Explorer aquí pon tu twitter 👇
+  twitter_handle = "@visual_partner"
+  showAuthorOnHomepage = true
+  showAuthorOnPosts = false
+  showPostsOnHomepage = false
+  addFrame = true
+  addDot = true
