@@ -1,0 +1,175 @@
+.head{
+    color: blue;
+}
+.botones-arriba{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+.boton-hoax-buster{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: rgba(0, 59, 185, 0.562);
+    border-color: aliceblue;
+    height: 50px;
+}
+.boton-regulation{
+    position: absolute;
+    right: 100px;
+    top: 5px;
+    border-color: aliceblue;
+    height: 50px;
+}
+.boton-news{
+    position: absolute;
+    right: 190px;
+    top: 5px;
+    border-color: aliceblue;
+    height: 50px;
+}
+.boton-education{
+    position: absolute;
+    right: 245px;
+    top: 5px;
+    border-color: aliceblue;
+    height: 50px;
+}
+.boton-database{
+    position: absolute;
+    right: 325px;
+    top: 5px;
+    border-color: aliceblue;
+    height: 50px;
+}
+.seccion1{
+    
+    height: 950px;
+    width: 2375px;
+}
+.vaccines{
+    
+    height: 900px;
+    width: 900px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.enfermera{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    top: 100px;
+    right: 700px;
+}
+.titulos-grandes{
+    color: rgb(0, 132, 240);
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    font-size: 500%;
+    font-family:Arial, Helvetica, sans-serif
+}
+.texto-normal{
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    color:gray;
+}
+.boton-best{
+    position: absolute;
+    top: 600px;
+    left: 200px;
+    background-color: yellow;
+    border-color: aliceblue;
+    height: 3%;
+    width: 20%;
+}
+.boton-vaccines{
+    position: absolute;
+    top: 600px;
+    left: 500px;
+    background-color: yellow;
+    border-color: aliceblue;
+    height: 3%;
+    width: 20%;
+}
+.agenda{
+    background-color: aliceblue;
+    height: 200px;
+    width: 900px;
+    position: absolute;
+    top: 800px;
+    left: 300px;
+}
+.agendar{
+    color: rgb(0, 132, 240);
+    height: 50px;
+    width: 300px;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.c1f1{
+    color: gray;
+    height: 50px;
+    width: 300px;
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.c2f1{
+    color: gray;
+    height: 50px;
+    width: 300px;
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.c3f1{
+    color: gray;
+    height: 50px;
+    width: 300px;
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.c1f2{
+    color: rgb(0, 132, 240);
+    height: 50px;
+    width: 300px;
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 50px;
+}
+.c2f2{
+    color: rgb(0, 132, 240);
+    height: 50px;
+    width: 300px;
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 385px;
+}
+.c3f2{
+    color: rgb(0, 132, 240);
+    height: 50px;
+    width: 300px;
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 670px;
+}
+.subag{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 300px;
+    font-size: 130%;
+    position: absolute;
+    left: 840px;
+    top: 170px;
+
+}
