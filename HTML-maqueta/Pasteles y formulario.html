@@ -1,0 +1,123 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica HTML</title>
+</head> 
+<body>
+
+    <h1>Pasteleria Naboo</h1>
+    <hr>
+    <h2>Pasteles básicos</h2>
+    <h3>Sabores (limitado a 1)</h3>
+    <table>
+        <tr>
+            <th>Sabores</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Fresa</td>
+            <td>12$</td>
+        </tr>
+        <tr>
+            <td>Café</td>
+            <td>15$</td>
+        </tr>
+        <tr>
+            <td>Vainilla</td>
+            <td>19 $</td>
+        </tr>
+        <tr>
+            <td>Suadero</td>
+            <td>2000$</td>
+        </tr>
+    </table>
+    <br>
+    <h3>Adornos (limitado a 1)</h3>
+    <table>
+        <tr>
+            <th>Tipo de Decoración</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Soccer</td>
+            <td>12$</td>
+        </tr>
+        <tr>
+            <td>Futbol Americano</td>
+            <td>15$</td>
+        </tr>
+        <tr>
+            <td>Boda</td>
+            <td>19 $</td>
+        </tr>
+        <tr>
+            <td>Personaje o tematica especiales</td>
+            <td>2000$</td>
+        </tr>
+    </table>
+    <hr>
+    
+    <h2>Pasteles Custom</h2>
+        <h3>Sabores</h3>
+            <input type="checkbox" id="topping1" name="topping1" value="Chocolate">
+            <label for="topping1">Chocolate</label><br>
+            <input type="checkbox" id="topping2" name="topping2" value="Fresa">
+            <label for="topping2">Fresa</label><br>
+            <input type="checkbox" id="topping3" name="topping3" value="Café">
+            <label for="topping3">Café</label><br><br>
+        <h3>Decoración</h3>
+            <input type="checkbox" id="topping4" name="topping4" value="Soccer">
+            <label for="topping4">Soccer</label><br>
+            <input type="checkbox" id="topping5" name="topping5" value="Futbol Americano">
+            <label for="topping5">Futbol Americano</label><br>
+            <input type="checkbox" id="topping6" name="topping6" value="Boda">
+            <label for="topping6">Boda</label><br><br>
+    <hr>
+    <h2>Datos de entrega</h2>
+        <h3>Datos del pedido</h3>
+            <p>Selecciona el tipo de pastel que quieres. </p>
+                <input type="checkbox" id="topping7" name="topping7" value="básicos">
+                <label for="topping7">Básico</label>
+                <input type="checkbox" id="topping8" name="topping8" value="Custom">
+                <label for="topping8">Custom</label>
+    <br>
+            <p>Selecciona el o los ingredientes</p>
+                <input type="checkbox" id="topping9" name="topping9" value="Chocolate">
+                <label for="topping9">Chocolate</label><br>
+                <input type="checkbox" id="topping10" name="topping10" value="Fresa">
+                <label for="topping10">Fresa</label><br>
+                <input type="checkbox" id="topping11" name="topping11" value="Café">
+                <label for="topping11">Café</label><br>   
+     <br>
+            <p>Selecciona la o las decoraciones</p>
+                <input type="checkbox" id="topping12" name="topping12" value="Soccer">
+                <label for="topping12">Soccer</label><br>
+                <input type="checkbox" id="topping13" name="topping13" value="Futbol Americano">
+                <label for="topping13">Futbol Americano</label><br>
+                <input type="checkbox" id="topping14" name="topping14" value="Personalizado">
+                <label for="topping14">Personalizado</label><br>
+     <br>       
+            <p>Si seleccionaste decoración personalizada agrega a continuación la imagen y/o el texto que quieres en el pastel</p>
+                <label for="Input1">Escribe el texto que quieres en tu pastel</label>
+                <input type="text" id="Input1" name="Input1"><br> <br>
+                <label for="files">Agrega la imagen referncia para tu pastel</label>
+                <input type="file" id="archivo1" name="archivo1" multiple><br><br>
+
+        <h3>Datos del Cliente</h3>
+            <label for="Input2">Nombre completo. </label><br>
+            <input type="text" id="Input2" name="Input2"><br><br>
+            <label for="tel1">Teléfono de contacto</label><br>
+            <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+            <label for="correo1">Correo Elecrrónico</label><br>
+            <input type="email" id="correo1" name="correo1"><br><br>
+
+            <input type="reset"><br>
+            <input type="submit"><br>
+            
+
+
+</body>
+</html>
